@@ -14,7 +14,7 @@ Paleta de cores
 }
 
 body, html{
-    background-color: #5A4089;
+    background-color: #828DDC;
     height: 100vh;
     width: 100vw;
 }
@@ -43,7 +43,7 @@ section#login{
 
 section#login > div#imagem{
     display: block;
-    background: #0F0C3B url(/imagens/imagem3.jpg) no-repeat;
+    background: #603A77 url(/imagens/imagem3.jpg) no-repeat;
     background-size: cover;
     background-position: right bottom;
     height: 200px;
