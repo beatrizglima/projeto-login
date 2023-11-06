@@ -14,7 +14,7 @@ Paleta de cores
 }
 
 body, html{
-    background-color: #1A3E54;
+    background-color: #5A4089;
     height: 100vh;
     width: 100vw;
 }
@@ -36,13 +36,16 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.450);
+
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem{
     display: block;
-    background: #517C8F url(/imagens/imagem2.jpg) no-repeat;
+    background: #0F0C3B url(/imagens/imagem3.jpg) no-repeat;
     background-size: cover;
-    background-position: left bottom;
+    background-position: right bottom;
     height: 200px;
 }
 
