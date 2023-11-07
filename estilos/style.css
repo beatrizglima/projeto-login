@@ -1,9 +1,12 @@
 @charset "UTF-8";
 
 /*
-
 Paleta de cores
-
+#5140A8
+#828DDC
+#603A77
+#181147
+#050714
 */
 
 *{
@@ -52,4 +55,13 @@ section#login > div#imagem{
 section#login > div#formulario{
     display: block;
     padding: 10px;
+}
+
+div#formulario > h1{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+div#formulario > p{
+    font-size: 0.8em;
 }
